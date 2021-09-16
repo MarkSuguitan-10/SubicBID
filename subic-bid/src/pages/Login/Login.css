@@ -1,0 +1,101 @@
+.login-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    height: 590px;
+}
+
+.companylogo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.companylogo-container img{
+    height: 150px;
+    width: 500px;
+}
+
+.userinput-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 300px;
+    
+}
+
+.userform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 0.75rem;
+    width: 300px;
+    height: 100%;
+    flex: 1;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    background-color: var(--clr-white);
+}
+
+.user-input{
+    display: inline-flex;
+    height: 2rem;
+    margin: 0.6rem 0rem;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    flex: 1;
+    width: 100%;
+    padding: 7px;
+}
+
+.loginoptions-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    flex: 1;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.loginoptions-container button{
+    width: auto;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem; 
+    font-weight:bold;
+}
+
+.submit{
+    width: 100%;
+    background-color: var(--clr-btnblue-main);
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight:bold;
+    height: auto;
+    padding: 7px 0;
+    border-radius: 0.5rem;
+}
+
+.loginform{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px 0px;
+}
+
+
+
+
+
+

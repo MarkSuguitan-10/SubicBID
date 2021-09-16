@@ -1,0 +1,97 @@
+.newaccount-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+}
+
+header img{
+    height: 75px;
+    width: 200px;
+}
+
+.newaccount-page header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: var( --clr-headerblue-main);
+}
+
+.createaccount-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: inherit;
+    text-align: left;
+}
+
+.newaccountinput-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    max-height: 600px;
+    width: 800px;
+    margin-bottom: 30px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--clr-white);
+    box-shadow: var(--dark-shadow);
+    border-radius: var(--radius);
+    padding: 20px 10px;
+}
+
+.data-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+}
+
+.input-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: inherit;
+}
+
+.control-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+}
+
+.input-container,label{
+    display: inline-flex;
+    width: 25%;
+}
+
+.input-container,input{
+    display: inline-flex;
+    width: 75%;
+}
+
+.errorlabel{
+    display: inline-block;
+    color: var(--clr-red-dark);
+    width: auto;
+}
+
+
